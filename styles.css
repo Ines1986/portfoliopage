@@ -1,185 +1,183 @@
 body {
-	background-color: #ffffe6;
-	padding: 0 0;
-	margin: 0 0;
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	color:black;
+  background-color: #000;
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  padding:0;
 }
 
 
-h3 {
-	font-weight: bold;
-	text-align: center;
-}
-
-
-/*navbar*/
-
-.bg-light {
-    background-color: #002080!important;
-}
-
-.navbar-light .navbar-brand {
-    color: gold;
-    font-weight: 800;
-    font-family: 'Shadows Into Light', cursive;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: gold;
-
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: gold;
-}
-.navbar-light .navbar-nav .nav-link.disabled {
-    color: gold;
-}
-
-/*Classes*/
 
 .container {
-	border: 5px solid #4d2600;
-	border-radius: 30px;
-	margin: 30px auto;
-	padding: 20px;
-	background-color: #d9b38c;
-	min-height: 300px;
+  padding-left: 0;
+  padding-right:0;
+  margin-left:0;
+  margin-right:0;
+  max-width: 1280px;
+  min-width: 100%
 }
 
-.container2 {
-	border: 4px solid #3b00b3;
-	text-align: center;
-	margin: 30px auto;
-	padding: 20px;
-	/*background-color: #ccb3ff;*/
-	background-image: url("https://images.pexels.com/photos/985266/pexels-photo-985266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-	background-repeat: no-repeat;
-	background-size: 1300px 600px;
-	opacity: 0.8;
-	color: white;
-	width: 100%;
-	height:100%;
-	min-height: 300px;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
-				 0px 8px 13px rgba(0,0,0,0.5),
-				 0px 18px 23px rgba(0,0,0,0.5);
+@media (min-width: 1200px)
+.container {
+    max-width: 1280px;
+     min-width: 100%;
 }
 
-
-
-.bluebg{
-	background-color: #7198d6;
-	color: white;
-	line-height: 60px;
-	border: 2px solid #002080;
-	text-align: center;
-} 
-
-
-.icons {
-	font-size: 55px;
-	padding: 0 10px;
+#projects {
+  z-index: 1;
+  position: relative;
+  background-color: white;
+  color: black;
+  margin-top: 250px;
+  width: 100%;
+/*  border: 2px #56B5F8 solid;*/
+  padding: 10px;
+  text-align: center;
+ /* border-radius: 90px;*/
 }
 
-
-.project {
-	height: 300px;
-	margin: 0 -20px;
-
-	border: white solid 3px;
-	border-radius: 70px;
-	
-	/*margin: 1.66%; */ /*30%*3=90 => 10%/6 = 1,66%*/
+#portfolio {
+  color: #fa5264;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 80px;
+   letter-spacing: 3px;
 }
 
-/*IDS*/
+/*#line {
+  border-bottom: 5px solid black;
+  width: 40%;
+  text-align: : center;
+  margin: 0 auto;
 
-#refercp {
-	/*background-color: #f9da72;
-	width: 30%;*/
-	color:red;
-	font-weight:900;
-	/*text-shadow: none;*/
-	/*margin: 0 auto;*/
-	
-	border: 1px solid white;
+}*/
+
+a {
+  color: #56B5F8;
 }
 
-#refercp2 {
-	background-color: #f9da72;
-	width: 30%;
-	color:red;
-	font-weight:900;
-	text-shadow: none;
-	margin: 0 auto;
+#endnote{
+  z-index: 1;
+  position: relative;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 100px;
+ 
 }
 
-#line {
-	border-bottom: 5px dotted blue;
-	width: 50%;
-	text-align: : center;
-	margin: 0 auto;
-
+.thumbnail img {
+   width: 100%;
 }
 
-#udemy {
-	color:#7198d6;
-	font-weight: 800;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.2),
-				 0px 18px 23px rgba(0,0,0,0.2);
-}
-
-#img {
-	background-image: url("https://images.unsplash.com/photo-1499914485622-a88fac536970?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd608ceaff251fe9aff6eb46c400ec95&auto=format&fit=crop&w=1050&q=80");
-	background-repeat: no-repeat;
-	background-size: 1300px 600px;
-	width: 100%;
-	height:100%;
-}
-
-#imgperu {
-	border: 2px solid #4d2600;
-	width: 270px;
-}
-
-#containermain {
-	height: 600px;
-	width: 1280px;
+.thumbnail {
+    padding:0;
 }
 
 
-#hello {
-	color: white;
-	text-align: center;
-	padding-top: 20%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
-	font-size: 75px;
-	font-family: 'Shadows Into Light', cursive;
+h1 {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+         0px 8px 13px rgba(0,0,0,0.5),
+         0px 18px 23px rgba(0,0,0,0.5);
 }
 
-#intro {
-	width: 80%;
-	margin: 0 auto; 
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
-				 0px 8px 13px rgba(0,0,0,0.4),
-				 0px 18px 23px rgba(0,0,0,0.4);
-	font-weight: 400;
-	font-size: 20px;
-	text-align: center;
-	color: white;
-	font-family: 'Noto Sans', sans-serif;
-	}
+.navbar {
+   z-index: 1;
+  position: relative;
+/*  background-color:transparent;*/
+  
+}
+
+ .navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 20px;
+}
+
+#landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+#landing-header h1 {
+  color: #fff;
+}
+
+.slideshow { 
+  position: fixed;
+  width: 1300px;
+  height: 680px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow li { 
+  width: 1300px;
+  height: 680px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 1280px;
+  height: 600px;*/
+ /* background-size: cover;*/
+ background-size: 1300px 680px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 50s linear infinite; 
+}
+
+.slideshow li:nth-child(1) { 
+  background-image: url(bg1.jpeg) 
+}
+.slideshow li:nth-child(2) { 
+  background-image: url(bg2.jpeg);
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+  background-image: url(bg3.jpeg);
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+  background-image: url(bg4.jpeg);
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url(bg5.jpeg);
+  animation-delay: 40s; 
+}
 
 
-#cssmenu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 1
+  }
+  30% {
+    opacity: 0
+  }
 }
