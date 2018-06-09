@@ -2,9 +2,55 @@ body {
   background-color: black;
   font-family: 'Libre Baskerville', serif;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
+
+
+#border {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 70px;
+ /* margin-right: 70px;
+  margin-left: 70px;*/
+  background-color: #F8F9F9;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  /*display: block;*/
+  position: relative;
+  background: #fcad26;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px 40px;
+  margin: 0 auto;
+  box-shadow: 0 6px #efa424;
+  border-radius: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+.btn:hover {
+  box-shadow: 0 4px #efa424;
+  top: 2px;
+}
+
+.btn:active {
+  box-shadow: 0 0 #efa424;
+  top: 6px;
+}
 
 
 .container {
@@ -16,7 +62,7 @@ body {
   min-width: 100%
 }
 
-@media (min-width: 1200px)
+@media (min-width: 1280px)
 .container {
     max-width: 1280px;
      min-width: 100%;
@@ -62,10 +108,12 @@ a {
 #endnote{
   z-index: 1;
   position: relative;
-  color: black;
+
   text-align: center;
   font-weight: 900;
   padding-top: 100px;
+  color: rgba(0,0,0,.5);
+  letter-spacing: 3px;
  
 }
 
@@ -92,6 +140,7 @@ h1 {
 }
 
  .navbar.transparent.navbar-inverse .navbar-inner {
+  position: fixed
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
@@ -131,14 +180,14 @@ h1 {
 
 .slideshow li { 
   width: 1300px;
-  height: 680px;
+  height: 730px;
   position: absolute;
   top: 0;
   left: 0;
   /*width: 1280px;
   height: 600px;*/
  /* background-size: cover;*/
- background-size: 1300px 680px;
+ background-size: 1300px 730px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   opacity: 0;
