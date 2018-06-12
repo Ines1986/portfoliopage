@@ -7,7 +7,7 @@ body {
 
 
 
-#border {
+/* #border {
   border: 1px solid gray;
   padding: 20px;
   margin-top: 0;
@@ -18,7 +18,7 @@ body {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
-}
+} */
 
 .btn {
   outline: none;
